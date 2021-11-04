@@ -1,0 +1,158 @@
+html {
+  background-color: var(--lime);
+  font-family: Verdana, sans-serif;
+}
+
+:root {
+  --background: #8EADB9;
+  --white: #FFFFFF;
+  --deep-blue: #061263;
+  --gray: #E4EDF0C1;
+  --gray-text: #979797;
+  --lime: #8FFFBC;
+  --shadow: 0px 3px 6px #00000029;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+}
+
+#__layout {
+  flex-direction: column;
+  background-color: var(--background);
+  width: 100vw;
+  margin-top: 9vh;
+  height: 91vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 536px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  color: var(--white);
+}
+
+h3 {
+  margin: 0;
+  color: var(--deep-blue);
+  font-weight: 300;
+}
+
+input {
+  background-color: var(--gray);
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  box-shadow: var(--shadow);
+  border-radius: 25px;
+  opacity: 1;
+  color: var(--gray-text);
+  justify-self: center;
+}
+
+input:focus {
+  outline: none;
+  background-color: var(--gray);
+}
+
+.search-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  align-self: center;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--gray);
+  color: var(--deep-blue);
+  outline: none;
+  transition: 0.4s;
+  width: 25px;
+  box-shadow: var(--shadow);
+}
+
+button:hover {
+  background-color: var(--background);
+  color: var(--gray);
+}
+
+.info {
+  background-color: var(--gray);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  opacity: 1;
+  padding-top: 18px;
+  padding-bottom: 25px;
+}
+
+.place-date {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-temp-condition {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  align-items: center;
+}
+
+.temp-condition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#temp {
+  margin: 0px;
+  color: var(--deep-blue);
+  font-weight: 300;
+}
+
+.humidity-wind {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feels-like {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  height: 50px;
+}
+
+#repo {
+  height: 4vh;
+}
